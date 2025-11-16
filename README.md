@@ -49,10 +49,10 @@ FortiGate-Campus-Project/
 
 ### 2. 🛡️ Campus Area (HA)
 
-![Campus Active Firewall](Assets/Campus Active.png)  
+![Campus Active Firewall](Assets/Campus_Active.png)  
 *Campus firewall in Primary/Active role*
 
-![Reserve Campus Active Firewall](Assets/ReserveCampus Active.png)  
+![Reserve Campus Active Firewall](Assets/ReserveCampus_Active.png)  
 *Reserve Campus firewall active as primary for testing failover*
 
 - **Internet Connection:** Both firewalls connected to Net  
@@ -73,10 +73,10 @@ FortiGate-Campus-Project/
 
 ## 🔗 VPN & Traffic Monitoring
 
-![IPSec Active](Assets/IPsec Active.png)  
+![IPSec Active](Assets/IPsec_Active.png)  
 *IPSec VPN is active and fully operational*
 
-![Forward Traffic](Assets/Forward Traffic.png)  
+![Forward Traffic](Assets/Forward_Traffic.png)  
 *Web filter in action monitoring outbound traffic*
 
 ---
@@ -151,10 +151,10 @@ FortiGate-Campus-Project/
 
 ### 2. 🛡️ Kampüs Bölgesi (HA)
 
-![Campus Active Firewall](Assets/Campus Active.png)  
+![Campus Active Firewall](Assets/Campus_Active.png)  
 *Campus firewall aktif, primary rolünde*
 
-![Reserve Campus Active Firewall](Assets/ReserveCampus Active.png)  
+![Reserve Campus Active Firewall](Assets/ReserveCampus_Active.png)  
 *Reserve Campus firewall failover testi için primary konumunda aktif*
 
 - **Net Bağlantısı:** Her iki firewall Net’e bağlı  
@@ -175,10 +175,10 @@ FortiGate-Campus-Project/
 
 ## 🔗 VPN & Trafik İzleme
 
-![IPSec Active](Assets/IPsec Active.png)  
+![IPSec Active](Assets/IPsec_Active.png)  
 *IPSec VPN aktif ve tam çalışır durumda*
 
-![Forward Traffic](Assets/Forward Traffic.png)  
+![Forward Traffic](Assets/Forward_Traffic.png)  
 *Web filter trafiği izlerken çalışıyor*
 
 ---
