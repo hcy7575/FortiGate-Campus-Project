@@ -1,5 +1,7 @@
 # 🛡️ FortiGate Campus Network Security Simulation (PNETLab)
 
+![Network Topology](Assets/topology.png)
+
 This repository contains the completed **FortiGate-based campus network security project**. All configurations, topologies, and tests have been successfully implemented.
 
 The project demonstrates VLAN segmentation, inter-VLAN routing, firewall policies, NAT, DHCP, VPN, UTM profiles, logging & monitoring, and High Availability (HA) setup.
@@ -46,7 +48,13 @@ FortiGate-Campus-Project/
 - **Test_Internet PC** directly connected to Net for testing  
 
 ### 2. 🛡️ Campus Area (HA)
-- **Campus_2** and **ReserveCampus_2** firewalls  
+
+![Campus Active Firewall](Assets/Campus Active.png)  
+*Campus firewall in Primary/Active role*
+
+![Reserve Campus Active Firewall](Assets/ReserveCampus Active.png)  
+*Reserve Campus firewall active as primary for testing failover*
+
 - **Internet Connection:** Both firewalls connected to Net  
 - **HA Link:** port3 between firewalls for failover and heartbeat  
 - **Connection to R2 Router:**  
@@ -63,17 +71,13 @@ FortiGate-Campus-Project/
 
 ---
 
-## 📸 Screenshots / Assets
+## 🔗 VPN & Traffic Monitoring
 
-Place your project screenshots in an `assets/` folder and reference them here:
+![IPSec Active](Assets/IPsec Active.png)  
+*IPSec VPN is active and fully operational*
 
-```markdown
-![Campus Dashboard](assets/campus_dashboard.png)
-![Policy Hit Count](assets/policy_hit_count.png)
-![VPN Status](assets/vpn_status.png)
-```
-
-Add more images as needed to document the project visually.  
+![Forward Traffic](Assets/Forward Traffic.png)  
+*Web filter in action monitoring outbound traffic*
 
 ---
 
@@ -97,6 +101,8 @@ Add more images as needed to document the project visually.
 ---
 
 # 🛡️ FortiGate Temelli Kampüs Ağı Güvenlik Simülasyonu (PNETLab)
+
+![Network Topology](Assets/topology.png)
 
 Bu repository, tamamlanmış **FortiGate tabanlı kampüs ağı güvenlik projesini** içermektedir. Tüm konfigürasyonlar, topolojiler ve testler başarıyla uygulanmıştır.
 
@@ -144,7 +150,13 @@ FortiGate-Campus-Project/
 - **Test_Internet PC** doğrudan Net’e bağlı  
 
 ### 2. 🛡️ Kampüs Bölgesi (HA)
-- **Campus_2** ve **ReserveCampus_2** firewall’lar  
+
+![Campus Active Firewall](Assets/Campus Active.png)  
+*Campus firewall aktif, primary rolünde*
+
+![Reserve Campus Active Firewall](Assets/ReserveCampus Active.png)  
+*Reserve Campus firewall failover testi için primary konumunda aktif*
+
 - **Net Bağlantısı:** Her iki firewall Net’e bağlı  
 - **HA Yedeklilik Bağlantısı:** port3 üzerinden failover ve heartbeat için  
 - **R2 Yönlendiriciye Bağlantı:**  
@@ -161,17 +173,13 @@ FortiGate-Campus-Project/
 
 ---
 
-## 📸 Ekran Görüntüleri / Assets
+## 🔗 VPN & Trafik İzleme
 
-Ekran görüntülerinizi `assets/` klasörüne koyun ve burada gösterebilirsiniz:
+![IPSec Active](Assets/IPsec Active.png)  
+*IPSec VPN aktif ve tam çalışır durumda*
 
-```markdown
-![Campus Dashboard](assets/campus_dashboard.png)
-![Policy Hit Count](assets/policy_hit_count.png)
-![VPN Status](assets/vpn_status.png)
-```
-
-Görsel olarak projeyi belgelemek için daha fazla resim ekleyebilirsiniz.  
+![Forward Traffic](Assets/Forward Traffic.png)  
+*Web filter trafiği izlerken çalışıyor*
 
 ---
 
@@ -190,4 +198,10 @@ Görsel olarak projeyi belgelemek için daha fazla resim ekleyebilirsiniz.
 - DHCP ve zone kullanımı  
 - VPN ve UTM konfigürasyonu deneyimi  
 - Loglama, monitoring ve debug yetkinliği  
-- HA kurulum ve failover yönetimi
+- HA kurulum ve failover yönetimi  
+
+---
+
+## 🖊️ Projeyi Hazırlayan
+
+**Hüseyin Can Yılmaz** – FortiGate Temelli Kampüs Ağı Güvenlik Simülasyonu (PNETLab)  
