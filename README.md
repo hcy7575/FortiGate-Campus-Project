@@ -204,4 +204,13 @@ FortiGate-Campus-Project/
 
 ## 🖊️ Projeyi Hazırlayan
 
-**Hüseyin Can Yılmaz** – FortiGate Temelli Kampüs Ağı Güvenlik Simülasyonu (PNETLab)  
+---
+
+<h2 align="center">HÜSEYİN CAN YILMAZ</h2>
+<p align="center">
+Completed this project during internship at <strong>Turkcell – Data & Security Customer Operations Department</strong><br>
+FortiGate Campus Network Security Simulation (PNETLab)
+</p>
+
+---
+
